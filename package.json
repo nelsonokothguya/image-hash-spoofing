@@ -1,0 +1,29 @@
+{
+  "name": "image-hash-spoofing",
+  "version": "1.0.0",
+  "description": "Adjusts an image file to achieve a desired hash prefix.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonokothguya/image-hash-spoofing.git"
+  },
+  "keywords": [
+    "hash",
+    "image",
+    "spoof"
+  ],
+  "author": "Nelson Okoth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelsonokothguya/image-hash-spoofing/issues"
+  },
+  "homepage": "https://github.com/nelsonokothguya/image-hash-spoofing#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "sharp": "^0.33.5"
+  }
+}
